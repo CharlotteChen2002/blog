@@ -14,6 +14,7 @@ function init() {
   const utterances = document.createElement('script')
   utterances.async = true
   utterances.setAttribute('src', 'https://utteranc.es/client.js')
+  // TODO: replace with your own repo
   utterances.setAttribute('repo', 'liuly0322/liuly0322.github.io')
   utterances.setAttribute('issue-term', 'pathname')
   utterances.setAttribute('crossorigin', 'anonymous')

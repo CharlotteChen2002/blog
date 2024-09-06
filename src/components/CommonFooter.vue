@@ -10,6 +10,9 @@ import IconRedHeart from '~icons/fluent-emoji-flat/red-heart'
       <!-- add a space -->
       <span class="mx-1">|</span>
       <span>{{ getCurrentSeason() }}</span>
+      <!-- get my location -->
+      <span class="mx-1">|</span>
+      <span>New York City, NY</span>
     </div>
     <p>
       Under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="blue-link" target="_blank">CC BY-NC-SA

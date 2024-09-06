@@ -35,8 +35,11 @@ watchEffect(() => {
 })
 </script>
 
+<!-- TODO: -->
 <template>
-  <nav v-show="enableToc" class="card pl-6 p-4 ml-5 mr-1">
+  <nav v-show="enableToc" class="card pl-6 p-4 ml-5 mr-1" :style="{
+    'overflow': 'hidden' /* Ensure no overflow */
+  }">
     <h2 class="font-medium text-lg mb-4">
       Contents
     </h2>
@@ -48,6 +51,7 @@ watchEffect(() => {
     </ul>
   </nav>
 </template>
+
 
 <style scoped>
 ul>li:hover::before {
