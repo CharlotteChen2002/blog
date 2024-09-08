@@ -9,10 +9,7 @@ mermaid: true
 ---
 This is a collorbative blog post about the 3-2 program from some students at Columbia University.     
 
-In this post, we will share our experience and thoughts about the 3-2 program.
-
-As beneficiaries of 3-2 program, or "Combiend plan", 
-We are now students at Columbia University. We will share my experience and thoughts about the program.
+As beneficiaries of 3-2 program, or "Combiend plan", We are now students at Columbia University. We will share my experience and thoughts about the program. In this post, we will share our experience and thoughts about the 3-2 program. We will discuss what the 3-2 program is, why we chose it, how to prepare for the application, and how competitive it is. We hope that this post will help you decide if the 3-2 program is right for you.
 
 ## What is 3-2 program?
 
