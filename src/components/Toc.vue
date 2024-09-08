@@ -34,8 +34,6 @@ watchEffect(() => {
   })
 })
 </script>
-
-<!-- TODO: -->
 <template>
   <nav v-show="enableToc" class="card pl-6 p-4 ml-5 mr-1" :style="{
     'overflow': 'hidden' /* Ensure no overflow */

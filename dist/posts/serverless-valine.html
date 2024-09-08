@@ -1,4 +1,19 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><title>Valine 评论系统及 Serverless 浅探 | llyのblog</title><meta name="description" content=" 事情起因是这样的： [起因](./serverlessvaline/1269gtz.jpg) 于是遂决定给自己的博客实现 最近评论 功能。 本文将简要介绍本博客采用的 [Valine](https://valine.js.org/) 评论系统背后的原理，并最后给出最近评论功能的实现，全站访问计数功能的实现。 more"><meta property="og:type" content="article"><meta property="og:title" content="Valine 评论系统及 Serverless 浅探"><meta property="og:locale" content="zh_CN"><meta property="article:author" content="liuly"> <meta property="article:tag" content="serverless">  </head><body><main style="display:none"> <p>事情起因是这样的：</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Valine 评论系统及 Serverless 浅探 | llyのblog</title>
+    <meta name="description" content=" 事情起因是这样的： [起因](./serverlessvaline/1269gtz.jpg) 于是遂决定给自己的博客实现 最近评论 功能。 本文将简要介绍本博客采用的 [Valine](https://valine.js.org/) 评论系统背后的原理，并最后给出最近评论功能的实现，全站访问计数功能的实现。 more">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Valine 评论系统及 Serverless 浅探">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="article:author" content="liuly">
+    <meta property="article:tag" content="serverless">
+    
+  </head>
+  <body>
+    <main style="display: none;">
+      <p>事情起因是这样的：</p>
 <p><img src="/images/1269gtz.jpg" alt="起因" width="511" height="1025"></p>
 <p>于是遂决定给自己的博客实现 <strong>最近评论</strong> 功能。</p>
 <p>本文将简要介绍本博客采用的 <a href="https://valine.js.org/" target="_blank" rel="noopener">Valine</a> 评论系统背后的原理，并最后给出最近评论功能的实现，全站访问计数功能的实现。</p>
@@ -190,4 +205,27 @@
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">    }</span></span>
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">  },</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 100</span><span style="color:#999999;--shiki-dark:#666666">);</span></span>
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">&#x3C;/</span><span style="color:#1E754F;--shiki-dark:#4D9375">script</span><span style="color:#999999;--shiki-dark:#666666">></span></span></code></pre>
- </main><script type="text/javascript">var main=document.querySelector("main"),content=main.innerHTML;sessionStorage.setItem("serverless-valine",content),sessionStorage.setItem("serverless-valine__time",Date.now().toString());var pathSegmentsToKeep=0,l=window.location;l.replace(l.protocol+"//"+l.hostname+(l.port?":"+l.port:"")+l.pathname.split("/").slice(0,1+pathSegmentsToKeep).join("/")+"/?/"+l.pathname.slice(1).split("/").slice(pathSegmentsToKeep).join("/").replace(/&/g,"~and~")+(l.search?"&"+l.search.slice(1).replace(/&/g,"~and~"):"")+l.hash)</script></body></html>
+
+    </main>
+    <script type="text/javascript">
+      var main = document.querySelector('main');
+      var content = main.innerHTML;
+      sessionStorage.setItem('serverless-valine', content);
+      sessionStorage.setItem('serverless-valine__time', Date.now().toString());
+      
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      var pathSegmentsToKeep = 0;
+
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    </script>
+  </body>
+</html>

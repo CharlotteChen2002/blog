@@ -1,4 +1,20 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><title>Hexo 博客夜间模式的实现兼 git 工作流简介 | llyのblog</title><meta name="description" content=" 本篇博客将记录 Hexo 默认 landscape 主题的夜间模式实现，以及 git 工作流的简单介绍。 基本思路 要想实现夜间模式，就意味着应用 CSS 的改变。这里作为 JS 练习，采用纯前端的方法实现：如果当前开启了夜间模式，那么就向根结点，即 HTML 结点增加一个类 darktheme，再重写深色模式使用的"><meta property="og:type" content="article"><meta property="og:title" content="Hexo 博客夜间模式的实现兼 git 工作流简介"><meta property="og:locale" content="zh_CN"><meta property="article:author" content="liuly"> <meta property="article:tag" content="hexo"> <meta property="article:tag" content="git">  </head><body><main style="display:none"> <p>本篇博客将记录 Hexo 默认 landscape 主题的夜间模式实现，以及 git 工作流的简单介绍。</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hexo 博客夜间模式的实现兼 git 工作流简介 | llyのblog</title>
+    <meta name="description" content=" 本篇博客将记录 Hexo 默认 landscape 主题的夜间模式实现，以及 git 工作流的简单介绍。 基本思路 要想实现夜间模式，就意味着应用 CSS 的改变。这里作为 JS 练习，采用纯前端的方法实现：如果当前开启了夜间模式，那么就向根结点，即 HTML 结点增加一个类 darktheme，再重写深色模式使用的">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Hexo 博客夜间模式的实现兼 git 工作流简介">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="article:author" content="liuly">
+    <meta property="article:tag" content="hexo">
+    <meta property="article:tag" content="git">
+    
+  </head>
+  <body>
+    <main style="display: none;">
+      <p>本篇博客将记录 Hexo 默认 landscape 主题的夜间模式实现，以及 git 工作流的简单介绍。</p>
 <h2 id="%E5%9F%BA%E6%9C%AC%E6%80%9D%E8%B7%AF" tabindex="-1">基本思路</h2>
 <p>要想实现夜间模式，就意味着应用 CSS 的改变。这里作为 JS 练习，采用纯前端的方法实现：如果当前开启了夜间模式，那么就向根结点，即 HTML 结点增加一个类 <code>dark-theme</code>，再重写深色模式使用的样式表，放置在原有样式表最后即可。</p>
 <!-- more -->
@@ -56,4 +72,27 @@
 <p>此后通过 <code>git commit -m &quot;这里写注释&quot;</code> 可以提交当前修改（还是在本地仓库）。最后 <code>git push origin main</code> 即可推送到 GitHub。</p>
 <p>vscode 图形界面已经集成了 git 的一些基本操作，可以很方便的完成推送。</p>
 <p>如果想查看每次 commit 造成的更改，可以使用 <code>git log</code>，增加参数 <code>-p</code> 会显示每次 commit 造成的变化（增量形式），增加参数 <code>-num</code>（num 是自己制定的数字），则可以限制显示的提交次数。</p>
- </main><script type="text/javascript">var main=document.querySelector("main"),content=main.innerHTML;sessionStorage.setItem("hexo-night-git",content),sessionStorage.setItem("hexo-night-git__time",Date.now().toString());var pathSegmentsToKeep=0,l=window.location;l.replace(l.protocol+"//"+l.hostname+(l.port?":"+l.port:"")+l.pathname.split("/").slice(0,1+pathSegmentsToKeep).join("/")+"/?/"+l.pathname.slice(1).split("/").slice(pathSegmentsToKeep).join("/").replace(/&/g,"~and~")+(l.search?"&"+l.search.slice(1).replace(/&/g,"~and~"):"")+l.hash)</script></body></html>
+
+    </main>
+    <script type="text/javascript">
+      var main = document.querySelector('main');
+      var content = main.innerHTML;
+      sessionStorage.setItem('hexo-night-git', content);
+      sessionStorage.setItem('hexo-night-git__time', Date.now().toString());
+      
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      var pathSegmentsToKeep = 0;
+
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    </script>
+  </body>
+</html>

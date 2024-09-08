@@ -38,7 +38,6 @@ const { isDark, toggleDark } = useDarks()
       <i-carbon:haze-night v-if="isDark" class="text-2xl" />
       <i-carbon:sun v-if="!isDark" class="text-2xl" />
     </span>
-    <!-- TODO fix this link -->
     <a aria-label="source-code" class="m-0.5 inline-block hover:text-hex-42b883"
       href="https://github.com/CharlotteChen2002/blog" target="_blank">
       <i-ant-design:github-filled class="text-2xl" />

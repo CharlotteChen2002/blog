@@ -1,4 +1,20 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><title>Anime List! | llyのblog</title><meta name="description" content=" 想做 Anime List 很久了，之前也考虑过 Notion 的方案，但是本人平常也不用 Notion，不想为了这个事情多用一个平台。最近发现自己使用的 [bangumi](https://bgm.tv) 有 API，于是就想到了用它来做 Anime List。 more 目前在博客导航栏选择动画即可进入 Anim"><meta property="og:type" content="article"><meta property="og:title" content="Anime List!"><meta property="og:locale" content="zh_CN"><meta property="article:author" content="liuly"> <meta property="article:tag" content="杂谈"> <meta property="article:tag" content="anime">  </head><body><main style="display:none"> <p>想做 Anime List 很久了，之前也考虑过 Notion 的方案，但是本人平常也不用 Notion，不想为了这个事情多用一个平台。最近发现自己使用的 <a href="https://bgm.tv" target="_blank" rel="noopener">bangumi</a> 有 API，于是就想到了用它来做 Anime List。</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Anime List! | llyのblog</title>
+    <meta name="description" content=" 想做 Anime List 很久了，之前也考虑过 Notion 的方案，但是本人平常也不用 Notion，不想为了这个事情多用一个平台。最近发现自己使用的 [bangumi](https://bgm.tv) 有 API，于是就想到了用它来做 Anime List。 more 目前在博客导航栏选择动画即可进入 Anim">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Anime List!">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="article:author" content="liuly">
+    <meta property="article:tag" content="杂谈">
+    <meta property="article:tag" content="anime">
+    
+  </head>
+  <body>
+    <main style="display: none;">
+      <p>想做 Anime List 很久了，之前也考虑过 Notion 的方案，但是本人平常也不用 Notion，不想为了这个事情多用一个平台。最近发现自己使用的 <a href="https://bgm.tv" target="_blank" rel="noopener">bangumi</a> 有 API，于是就想到了用它来做 Anime List。</p>
 <!-- more -->
 <p>目前在博客导航栏选择动画即可进入 Anime List 页面。</p>
 <p><img src="/images/my_anime_list.png" alt="Anime List" width="1461" height="854"></p>
@@ -134,4 +150,27 @@
 <span class="line"><span style="color:#B07D48;--shiki-dark:#BD976A">  element</span><span style="color:#999999;--shiki-dark:#666666">?.</span><span style="color:#59873A;--shiki-dark:#80A665">removeEventListener</span><span style="color:#999999;--shiki-dark:#666666">(</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="color:#B56959;--shiki-dark:#C98A7D">scroll</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#B07D48;--shiki-dark:#BD976A"> updateOnScroll</span><span style="color:#999999;--shiki-dark:#666666">)</span></span>
 <span class="line"><span style="color:#B07D48;--shiki-dark:#BD976A">  document</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#59873A;--shiki-dark:#80A665">removeEventListener</span><span style="color:#999999;--shiki-dark:#666666">(</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="color:#B56959;--shiki-dark:#C98A7D">scroll</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#B07D48;--shiki-dark:#BD976A"> updateOnScroll</span><span style="color:#999999;--shiki-dark:#666666">)</span></span>
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">})</span></span></code></pre>
- </main><script type="text/javascript">var main=document.querySelector("main"),content=main.innerHTML;sessionStorage.setItem("bangumi_anime_list",content),sessionStorage.setItem("bangumi_anime_list__time",Date.now().toString());var pathSegmentsToKeep=0,l=window.location;l.replace(l.protocol+"//"+l.hostname+(l.port?":"+l.port:"")+l.pathname.split("/").slice(0,1+pathSegmentsToKeep).join("/")+"/?/"+l.pathname.slice(1).split("/").slice(pathSegmentsToKeep).join("/").replace(/&/g,"~and~")+(l.search?"&"+l.search.slice(1).replace(/&/g,"~and~"):"")+l.hash)</script></body></html>
+
+    </main>
+    <script type="text/javascript">
+      var main = document.querySelector('main');
+      var content = main.innerHTML;
+      sessionStorage.setItem('bangumi_anime_list', content);
+      sessionStorage.setItem('bangumi_anime_list__time', Date.now().toString());
+      
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      var pathSegmentsToKeep = 0;
+
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    </script>
+  </body>
+</html>

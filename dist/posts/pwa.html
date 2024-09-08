@@ -1,4 +1,20 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><title>PWA 补完计划 | llyのblog</title><meta name="description" content=" 这篇文章记录下对博客进行的 PWA（ProgressiveWebApp）改造！因为博客是基于 Vite 的，所以理论上来说安装配置一下 [VitePWA](https://github.com/vitepwa/vitepluginpwa) 就 ok 了。 PWA PWA 这个词听上去可能很让人陌生，但在国内我们早就熟"><meta property="og:type" content="article"><meta property="og:title" content="PWA 补完计划"><meta property="og:locale" content="zh_CN"><meta property="article:author" content="liuly"> <meta property="article:tag" content="vite"> <meta property="article:tag" content="pwa">  </head><body><main style="display:none"> <p>这篇文章记录下对博客进行的 PWA（Progressive-Web-App）改造！因为博客是基于 Vite 的，所以理论上来说安装配置一下 <a href="https://github.com/vite-pwa/vite-plugin-pwa" target="_blank" rel="noopener">VitePWA</a> 就 ok 了。</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PWA 补完计划 | llyのblog</title>
+    <meta name="description" content=" 这篇文章记录下对博客进行的 PWA（ProgressiveWebApp）改造！因为博客是基于 Vite 的，所以理论上来说安装配置一下 [VitePWA](https://github.com/vitepwa/vitepluginpwa) 就 ok 了。 PWA PWA 这个词听上去可能很让人陌生，但在国内我们早就熟">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="PWA 补完计划">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="article:author" content="liuly">
+    <meta property="article:tag" content="vite">
+    <meta property="article:tag" content="pwa">
+    
+  </head>
+  <body>
+    <main style="display: none;">
+      <p>这篇文章记录下对博客进行的 PWA（Progressive-Web-App）改造！因为博客是基于 Vite 的，所以理论上来说安装配置一下 <a href="https://github.com/vite-pwa/vite-plugin-pwa" target="_blank" rel="noopener">VitePWA</a> 就 ok 了。</p>
 <h2 id="pwa" tabindex="-1">PWA</h2>
 <p>PWA 这个词听上去可能很让人陌生，但在国内我们早就熟悉一个很类似的概念了——小程序。</p>
 <!-- more -->
@@ -108,4 +124,27 @@
 <span class="line"><span style="color:#59873A;--shiki-dark:#80A665">  navigateFallback</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#AB5959;--shiki-dark:#CB7676"> null</span><span style="color:#999999;--shiki-dark:#666666">,</span></span>
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">},</span></span></code></pre>
 <p>再移除 <code>registerSW({ immediate: true })</code> 就愉快的收工了。</p>
- </main><script type="text/javascript">var main=document.querySelector("main"),content=main.innerHTML;sessionStorage.setItem("pwa",content),sessionStorage.setItem("pwa__time",Date.now().toString());var pathSegmentsToKeep=0,l=window.location;l.replace(l.protocol+"//"+l.hostname+(l.port?":"+l.port:"")+l.pathname.split("/").slice(0,1+pathSegmentsToKeep).join("/")+"/?/"+l.pathname.slice(1).split("/").slice(pathSegmentsToKeep).join("/").replace(/&/g,"~and~")+(l.search?"&"+l.search.slice(1).replace(/&/g,"~and~"):"")+l.hash)</script></body></html>
+
+    </main>
+    <script type="text/javascript">
+      var main = document.querySelector('main');
+      var content = main.innerHTML;
+      sessionStorage.setItem('pwa', content);
+      sessionStorage.setItem('pwa__time', Date.now().toString());
+      
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      var pathSegmentsToKeep = 0;
+
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    </script>
+  </body>
+</html>

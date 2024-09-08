@@ -77,5 +77,8 @@
     "vue-router": "^4.4.3",
     "vue-tsc": "^2.1.4",
     "windicss": "^3.5.6"
+  },
+  "dependencies": {
+    "@vue/cli": "^5.0.8"
   }
 }
