@@ -10,7 +10,7 @@ import mdAnchorPlugin from 'markdown-it-anchor'
 import mdLinkAttrPlugin from 'markdown-it-link-attributes'
 import mdImageSizePlugin from './mdImageSizePlugin'
 
-const SITE_URL = 'https://blog.liuly.moe'
+const SITE_URL = 'https://charlottechen.blog'
 
 const descriptionRenderer = markdownIt()
   .use(mdImageSizePlugin(SITE_URL))
