@@ -4,7 +4,6 @@ const navOptions = [
     to: '/',
     match: '/$',
   },
-  // TODO: Add more navigation options
   {
     label: 'Links',
     to: '/links',

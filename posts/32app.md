@@ -1,5 +1,5 @@
 ---
-title: From LAC to Columbia Engineering
+title: "From LAC to Engineering School: The 3-2 Program"
 date: 2024-09-08 11:13:00
 tags: [application, 3-2 program, Columbia University]
 category: notes
