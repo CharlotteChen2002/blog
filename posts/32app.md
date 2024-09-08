@@ -1,7 +1,7 @@
 ---
 title: From LAC to Columbia Engineering
 date: 2024-09-08 11:13:00
-tags: [web, personal]
+tags: [application, 3-2 program, Columbia University]
 category: notes
 mathjax: true
 tocbot: true
