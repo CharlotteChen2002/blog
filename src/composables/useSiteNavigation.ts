@@ -11,11 +11,6 @@ const navOptions = [
     match: '/links$',
   },
   {
-    label: 'Bangumi',
-    to: '/bangumi',
-    match: '/bangumi$',
-  },
-  {
     label: 'About',
     to: '/about',
     match: '/about$',

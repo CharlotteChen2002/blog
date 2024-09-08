@@ -19,5 +19,12 @@ I'm a student at Columbia University, majoring in Computer Engineering. I'm inte
 - Email：
   - charlottechendaily2002 AT gmail.com (personal)
   - hc3558 AT columbia.edu (academic)
+<!-- access  /bangumi in here   {
+    label: 'Bangumi',
+    to: '/bangumi',
+    match: '/bangumi$',
+  },-->
+- My anime list: [Bangumi](/bangumi)
+
 
 </div>
