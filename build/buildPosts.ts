@@ -115,12 +115,12 @@ function removeRSSLastBuildDate(xml: string) {
 
 async function generateRSS(posts: Post[]) {
   const feed = new RSS({
-    title: 'liuly\'s Blog',
-    description: 'liuly 的个人 Blog',
+    title: 'Charlotte Chen\'s Blog',
+    description: 'Charlotte Chen\'s Blog',
     site_url: SITE_URL,
     feed_url: `${SITE_URL}/feed.xml`,
-    copyright: '2024 liuly',
-    language: 'zh-cn',
+    copyright: '2024 charlotte',
+    language: 'en',
   })
   for (const post of posts) {
     feed.item({
