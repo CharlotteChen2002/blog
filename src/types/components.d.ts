@@ -32,5 +32,6 @@ declare module 'vue' {
     RouterView: typeof import('vue-router')['RouterView']
     Sidebar: typeof import('./../components/Sidebar.vue')['default']
     Toc: typeof import('./../components/Toc.vue')['default']
+    Yiyan: typeof import('./../components/Yiyan.vue')['default']
   }
 }
