@@ -28,7 +28,7 @@ Different LACs have different engineering schools that they are affiliated with.
 *I chose the 3-2 program because I wanted to combine my interests in the humanities and engineering. I enjoyed studying at Grinnell College and appreciated the small class sizes and close relationships with professors. However, I also wanted to pursue a career in engineering and felt that the 3-2 program would provide me with the technical skills and knowledge I needed to succeed in the field.*
 <p align="right">Charlotte Chen, Grinnell College, Comp Eng</p>
 
-*I chose the 3-2 program because*
+*TODO*
 <p align="right">Eva Wu, Bates College, Env Eng</p>
 
 
@@ -53,7 +53,7 @@ If Caltech is your dream school, you will need to have a very strong academic re
 
 ### Bates College
 
-xxx
+TODO
 
 
 ## How to apply to the 3-2 program?
@@ -85,8 +85,9 @@ Additionally, Caltech does not offer scholarships for 3-2 students.
 
 
 ## What is the experience like in the 3-2 program?
-
+<!-- TODO: finish this -->
 We have just been here and will update this section soon.
+
 
 ## Conclusion
 
