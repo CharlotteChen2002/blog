@@ -31,7 +31,7 @@ Welcome to [my personal blog site](https://charlottechen.blog/) ([subscribe](htt
 ## Edit site
 
 - Add vue components in `src/components`
-<!-- add sub list -->
+<!-- add second level list -->
     - Music player in `src/components/APlayer.vue`
     - Change sidebar in `src/components/Sidebar.vue`
     - Change post content table in `src/components/Toc.vue`

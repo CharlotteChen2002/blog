@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // const APlayer = defineAsyncComponent(() => import('./APlayer.vue'))
-import Yiyan from './Yiyan.vue'
+import Yiyan from './Hitokoto.vue'
 </script>
 
 <template>

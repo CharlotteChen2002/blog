@@ -56,4 +56,38 @@ If Caltech is your dream school, you will need to have a very strong academic re
 xxx
 
 
+## How to apply to the 3-2 program?
+To apply to the 3-2 program, you will need to follow the application process for the engineering school you plan to attend. In most cases, you will need to submit an application to the engineering school during your junior year at LAC. Be sure to consult with engineering coordinator at your LAC to ensure that you meet all the requirements for the 3-2 program.
 
+In addition to the application to the engineering school, you will need to ask for recommendation letters from your professors and submit your transcripts. You may also need to write a personal statement explaining why you want to pursue engineering and how the 3-2 program will help you achieve your goals depending on the school.
+
+Some engineering schools have a separate application for school-specific scholarships. However, your scharship from LAC will be not transferable to the engineering school and application for scholarships may impact your admission decision if you are an international student.
+
+### Washington University in St. Louis
+
+Washington University in St. Louis has a straightforward application process for the 3-2 program. You can access the application portal at [Dual Degree Portal](https://gradadmit.wustl.edu/apply/?sr=600393bb-00eb-421f-ae8d-b4600d5d1408). In the applicaton, they does not require you to submit recommendation letters or personal statement. You may finsih the application in less than a hour.
+
+Washington University in St. Louis also offers [some scholarships](https://engineering.washu.edu/academics/dual-degree-program/financial-aid.html) for 3-2 students. If you are willing to select Graduate 3-year Option, you will receive a tutition deduction of 50% for the first year, 55% for the second year, and 60% for the third year. you will not be able to drop master's degree and have to stay in the program for 3 years if you select this option. Merit-Based scharships are also available for 3-2 students. Most students receive a  Lee Hunter Scholarship if they submit the scholarship application. This application requires you to submit a personal statement and recommendation letters.
+
+### Columbia University
+
+Columbia University has a more complex application process for the 3-2 program. You will need to submit an application to the [Combined Plan Program](https://apply.college.columbia.edu/apply/) during your junior year at LAC. You will also need to submit recommendation letters, transcripts, and two essays. The first essay should explain how different aspects of Columbia University fit your academic and personal goals. The second essay should explain why you want to study the specific engineering major you have chosen.
+
+Columbia University only provide needed-based financial aid for 3-2 students. For international students, most students who attempted to apply for scholarships will be waitlisted. However, small amount of they did successfully receive scholarships.
+
+
+### California Institute of Technology
+
+Caltech has a separate application process for the 3-2 program. You will need to submit an application to the [Caltech 3/2 Admissions](https://www.admissions.caltech.edu/apply/32-program) during your junior year at LAC. You will also need to submit recommendation letters, transcripts, three required essays, and four optional essays. The required essays should explain why you want to pursue engineering, why you want to attend Caltech, and how the 3-2 program will help you achieve your goals.
+
+Caltech only provide financial aid for U.S. citizens and permanent residents. International students are not eligible for financial aid.
+Additionally, Caltech does not offer scholarships for 3-2 students. 
+
+
+## What is the experience like in the 3-2 program?
+
+We have just been here and will update this section soon.
+
+## Conclusion
+
+The 3-2 program is a great option for students who want to combine their interests in the humanities and engineering.

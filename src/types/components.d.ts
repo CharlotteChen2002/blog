@@ -13,6 +13,7 @@ declare module 'vue' {
     CommonFooter: typeof import('./../components/CommonFooter.vue')['default']
     ControlPanel: typeof import('./../components/ControlPanel.vue')['default']
     Header: typeof import('./../components/Header.vue')['default']
+    Hitokoto: typeof import('./../components/Hitokoto.vue')['default']
     'IAntDesign:githubFilled': typeof import('~icons/ant-design/github-filled')['default']
     'ICarbon:hazeNight': typeof import('~icons/carbon/haze-night')['default']
     'ICarbon:menu': typeof import('~icons/carbon/menu')['default']
