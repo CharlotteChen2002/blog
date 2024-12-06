@@ -28,4 +28,3 @@ const { postsOnPage } = usePage()
   </div>
   <CommonFooter />
 </template>
-

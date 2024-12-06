@@ -46,7 +46,7 @@ html.dark .utterances {
   overflow-y: hidden;
 }
 
-/* （移动端）遮罩层 */
+
 .mdui-overlay {
   position: fixed;
   top: 64px;
