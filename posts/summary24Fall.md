@@ -38,5 +38,3 @@ In the upcoming semester, I plan to:
 - **Take care of my mental health**: I will continue to see my therapist and psychiatrist regularly and take care of my mental health. Venlafaxine is working well for me, but I still need to be cautious.
 - **Prepare for SRS**: I will schedule consultations with plastic surgeons and prepare for SRS and FFS.
 - **Do research**: I will start looking for research opportunities and work on a research project, probably about SoC or GPU.
-
-
