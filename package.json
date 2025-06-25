@@ -52,7 +52,7 @@
     "eslint-plugin-vue": "^9.27.0",
     "frontmatter": "^0.0.3",
     "image-size": "^1.2.1",
-    "katex": "^0.16.11",
+    "katex": "^0.16.21",
     "lightningcss": "^1.26.0",
     "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^9.1.0",
@@ -73,7 +73,7 @@
     "vite-plugin-pwa": "^0.20.2",
     "vite-plugin-vsharp": "^1.8.1",
     "vite-plugin-windicss": "^1.9.3",
-    "vue": "^3.4.38",
+    "vue": "^3.5.0",
     "vue-router": "^4.4.3",
     "vue-tsc": "^2.1.4",
     "windicss": "^3.5.6"
