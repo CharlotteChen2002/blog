@@ -1,4 +1,20 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><title>Hello New World | llyのblog</title><meta name="description" content=" 博客搬迁至自建 Vue3 框架 feature 暗黑模式支持 全局搜索（标题支持） 单页面应用带来的良好路由体验（指可以一直听歌） RSS 支持 Markdown 部分 mathjax 支持 锚点支持 高亮支持 more to be done 未支持 mermaid 文章增添目录 目前不是 SSG，因此对 SEO 不"><meta property="og:type" content="article"><meta property="og:title" content="Hello New World"><meta property="og:locale" content="zh_CN"><meta property="article:author" content="liuly"> <meta property="article:tag" content="vue"> <meta property="article:tag" content="typescript">  </head><body><main style="display:none"> <p>博客搬迁至自建 Vue3 框架</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello New World | llyのblog</title>
+    <meta name="description" content=" 博客搬迁至自建 Vue3 框架 feature 暗黑模式支持 全局搜索（标题支持） 单页面应用带来的良好路由体验（指可以一直听歌） RSS 支持 Markdown 部分 mathjax 支持 锚点支持 高亮支持 more to be done 未支持 mermaid 文章增添目录 目前不是 SSG，因此对 SEO 不">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Hello New World">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="article:author" content="liuly">
+    <meta property="article:tag" content="vue">
+    <meta property="article:tag" content="typescript">
+    
+  </head>
+  <body>
+    <main style="display: none;">
+      <p>博客搬迁至自建 Vue3 框架</p>
 <h2 id="feature" tabindex="-1">feature</h2>
 <ul>
 <li>暗黑模式支持</li>
@@ -32,4 +48,27 @@
 <li>QuAn_（<s>头像支持</s>）</li>
 <li>...</li>
 </ul>
- </main><script type="text/javascript">var main=document.querySelector("main"),content=main.innerHTML;sessionStorage.setItem("hello-world",content),sessionStorage.setItem("hello-world__time",Date.now().toString());var pathSegmentsToKeep=0,l=window.location;l.replace(l.protocol+"//"+l.hostname+(l.port?":"+l.port:"")+l.pathname.split("/").slice(0,1+pathSegmentsToKeep).join("/")+"/?/"+l.pathname.slice(1).split("/").slice(pathSegmentsToKeep).join("/").replace(/&/g,"~and~")+(l.search?"&"+l.search.slice(1).replace(/&/g,"~and~"):"")+l.hash)</script></body></html>
+
+    </main>
+    <script type="text/javascript">
+      var main = document.querySelector('main');
+      var content = main.innerHTML;
+      sessionStorage.setItem('hello-world', content);
+      sessionStorage.setItem('hello-world__time', Date.now().toString());
+      
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      var pathSegmentsToKeep = 0;
+
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    </script>
+  </body>
+</html>
