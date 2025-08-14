@@ -45,23 +45,20 @@ function isInView(el: HTMLElement) {
     动画列表
   </h1>
   <p class="mt-5">
-    我在 <a href="https://bangumi.tv/user/undef_baka" class="blue-link" target="_blank" rel="noopener noreferrer">bangumi</a>
-    上对部分看过动画的评分与短评（Optional）。
+    我在 <a href="https://bangumi.tv/user/charlottechen" class="blue-link" target="_blank"
+      rel="noopener noreferrer">bangumi</a>
+    上对部分看过动画的评分与短评(Optional)。
   </p>
   <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 mt-5">
-    <div
-      v-for="anime in animeList" :key="anime.subject.id"
-      class="flex items-center card p-3"
-    >
-      <a class="flex-shrink-0" :href="`https://bgm.tv/subject/${anime.subject.id}`" target="_blank" rel="noopener noreferrer">
+    <div v-for="anime in animeList" :key="anime.subject.id" class="flex items-center card p-3">
+      <a class="flex-shrink-0" :href="`https://bgm.tv/subject/${anime.subject.id}`" target="_blank"
+        rel="noopener noreferrer">
         <img :src="anime.subject.images.medium" :alt="anime.subject.name" class="rounded-lg" width="130" height="182">
       </a>
 
       <div class="h-full ml-2 flex flex-col justify-between flex-grow text-sm">
-        <a
-          :href="`https://bgm.tv/subject/${anime.subject.id}`" target="_blank" rel="noopener noreferrer"
-          class="text-lg blue-link font-bold hover:underline"
-        >
+        <a :href="`https://bgm.tv/subject/${anime.subject.id}`" target="_blank" rel="noopener noreferrer"
+          class="text-lg blue-link font-bold hover:underline">
           {{ anime.subject.name_cn || anime.subject.name }}
         </a>
 

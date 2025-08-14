@@ -7,8 +7,8 @@ const currPost = computed(() => getCurrentPostSummary(props.post))
 
 const title = computed(() => {
   if (currPost.value === emptySummary)
-    return 'llyのblog'
-  return `${currPost.value.title} | llyのblog`
+    return '夏洛特的blog'
+  return `${currPost.value.title} | 夏洛特的blog`
 })
 useTitle(title)
 
