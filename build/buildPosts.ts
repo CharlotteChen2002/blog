@@ -1,20 +1,21 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
-import frontmatter from 'frontmatter'
-import RSS from 'rss'
-import template from 'art-template'
-import markdownIt from 'markdown-it'
 import Shiki from '@shikijs/markdown-it'
-import mdMathPlugin from 'markdown-it-texmath'
+import template from 'art-template'
+import frontmatter from 'frontmatter'
+import markdownIt from 'markdown-it'
 import mdAnchorPlugin from 'markdown-it-anchor'
 import mdLinkAttrPlugin from 'markdown-it-link-attributes'
+import mdMathPlugin from 'markdown-it-texmath'
+import RSS from 'rss'
 import mdImageSizePlugin from './mdImageSizePlugin'
 
-const SITE_URL = 'https://charlottechen.blog'
+const SITE_URL = 'https://blog.liuly.moe'
 
 const descriptionRenderer = markdownIt()
   .use(mdImageSizePlugin(SITE_URL))
 const postRenderer = markdownIt({ html: true })
+  // eslint-disable-next-line antfu/no-top-level-await
   .use(await Shiki({
     themes: {
       light: 'vitesse-light',
@@ -115,12 +116,12 @@ function removeRSSLastBuildDate(xml: string) {
 
 async function generateRSS(posts: Post[]) {
   const feed = new RSS({
-    title: 'Charlotte Chen\'s Blog',
-    description: 'Charlotte Chen\'s Blog',
+    title: 'liuly\'s Blog',
+    description: 'liuly 的个人 Blog',
     site_url: SITE_URL,
     feed_url: `${SITE_URL}/feed.xml`,
-    copyright: '2024 charlotte',
-    language: 'en',
+    copyright: '2024 liuly',
+    language: 'zh-cn',
   })
   for (const post of posts) {
     feed.item({

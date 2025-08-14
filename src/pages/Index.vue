@@ -15,7 +15,7 @@ const { postsOnPage } = usePage()
     <!-- eslint-disable-next-line vue/no-v-html -->
     <div class="md-blog m-auto text-left" v-html="post.detail" />
     <router-link class="show-more" :to="`/posts/${encodeURIComponent(post.summary.url)}`">
-      Show more
+      查看更多
     </router-link>
     <div class="text-left mt-6">
       <span v-for="tag in post.summary.tags" :key="tag" class="mr-2 text-slate-500">

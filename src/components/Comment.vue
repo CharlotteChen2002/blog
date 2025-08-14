@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import LineMdLoadingLoop from '~icons/line-md/loading-loop?width=48px&height=48px'
 import type { PostSummary } from '~/composables/useSummary'
+import LineMdLoadingLoop from '~icons/line-md/loading-loop?width=48px&height=48px'
 
 const props = defineProps<{
   post: PostSummary
@@ -14,7 +14,7 @@ function init() {
   const utterances = document.createElement('script')
   utterances.async = true
   utterances.setAttribute('src', 'https://utteranc.es/client.js')
-  utterances.setAttribute('repo', 'CharlotteChen2002/CharlotteChen2002.github.io')
+  utterances.setAttribute('repo', 'liuly0322/liuly0322.github.io')
   utterances.setAttribute('issue-term', 'pathname')
   utterances.setAttribute('crossorigin', 'anonymous')
   if (isDark.value)
@@ -46,7 +46,7 @@ watch(isDark, (value, oldValue) => {
     <div class="absolute inset-0 flex flex-col items-center justify-center">
       <LineMdLoadingLoop style="color: #18a058;" />
       <p class="mt-4">
-        Loading comments...
+        评论加载中...
       </p>
     </div>
   </div>

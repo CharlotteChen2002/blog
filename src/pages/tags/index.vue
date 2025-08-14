@@ -17,7 +17,7 @@ function computeSize(times: number): TagProps['size'] {
 
 <template>
   <n-divider title-placement="left">
-    tags
+    标签
   </n-divider>
   <router-link v-for="tag in tagCount" :key="tag.content" :to="`/tags/${encodeURIComponent(tag.content)}`">
     <n-tag type="info" :size="computeSize(tag.times)" class="m-1 cursor-pointer" round>

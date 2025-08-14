@@ -34,25 +34,29 @@ watchEffect(() => {
   })
 })
 </script>
+
 <template>
-  <nav v-show="enableToc" class="card pl-6 p-4 ml-5 mr-1" :style="{
-    'overflow': 'hidden' /* Ensure no overflow */
-  }">
+  <nav v-show="enableToc" class="card pl-6 p-4 ml-5 mr-1">
     <h2 class="font-medium text-lg mb-4">
-      Contents
+      目录
     </h2>
     <ul>
-      <li v-for="item in elem" :id="`toc-${item.id}`" :key="`toc-${item.id}`" class="hover:underline pl-[1.5ch]"
-        :style="{ 'margin-left': `${item.tab * 1.5}ch` }" @click="scrollIntoView(item.id)">
+      <li
+        v-for="item in elem"
+        :id="`toc-${item.id}`"
+        :key="`toc-${item.id}`"
+        class="hover:underline pl-[1.5ch]"
+        :style="{ 'margin-left': `${item.tab * 1.5}ch` }"
+        @click="scrollIntoView(item.id)"
+      >
         {{ item.text }}
       </li>
     </ul>
   </nav>
 </template>
 
-
 <style scoped>
-ul>li:hover::before {
+ul > li:hover::before {
   content: '>';
   position: relative;
   float: left;
