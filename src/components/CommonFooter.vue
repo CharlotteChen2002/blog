@@ -6,10 +6,8 @@ import { getCurrentSeason, getCurrentYear } from '~/utils/date'
 <template>
   <footer class="flex flex-col items-center justify-center pt-8 pb-12 leading-8 border-t-[0.8px] dark:border-white/9">
     <div class="flex items-center">
-      <span>© 2021 - {{ getCurrentYear() }}</span>
-      <span class="px-2.5 mt-1 animate-heartBeat animate-infinite">
-        <IconRedHeart />
-      </span>
+      <span>© 2024 - {{ getCurrentYear() }}</span>
+      &nbsp;&nbsp;
       <span>{{ getCurrentSeason() }}</span>
     </div>
     <p>
