@@ -2,27 +2,10 @@
   <img src='public/pwa-192x192.png' width='192'/>
 </p>
 
-<h1 align='center'>Q Blog</h1>
+<h1 align='center'>Blog</h1>
+<p align='center'>Blog - Quicker and Cuter</p>
 
-<p align="center">
-
-  <a href="https://github.com/liuly0322/Q-Blog/blob/main/LICENSE.md">
-    <img src="https://img.shields.io/badge/License-MIT-68be8d">
-  </a>
-
-  <a href="https://github.com/liuly0322/Q-Blog/blob/main/LICENSE.md">
-    <img src="https://img.shields.io/badge/license-CC_BY--NC--SA_4.0-68be8d">
-  </a>
-
-  <a href="https://www.codefactor.io/repository/github/liuly0322/q-blog">
-    <img src="https://img.shields.io/codefactor/grade/github/liuly0322/q-blog/main?color=68be8d">
-  </a>
-
-</p>
-
-<p align='center'>Q-Blog - Quicker and Cuter</p>
-
-Welcome to [my personal blog site](https://blog.liuly.moe) ([subscribe](https://blog.liuly.moe/feed.xml)).
+Welcome to [my personal blog site](https://charlottechen.blog/) ([subscribe](https://charlottechen.blog/feed.xml)).
 
 - Vite5, Vue3, TypeScript, Naive UI
 - Responsive Web Design, Dark Mode, PWA
@@ -54,3 +37,4 @@ pnpm preview # preview the production build
 
 - [tov-template](https://github.com/dishait/tov-template)
 - [Vite PWA](https://github.com/vite-pwa/vite-plugin-pwa)
+- [template](https://github.com/liuly0322/Q-Blog)
