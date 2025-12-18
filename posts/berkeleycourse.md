@@ -5,15 +5,14 @@ date: 2025-08-14 22:50:27
 tags: [杂谈]
 ---
 
-2021年的暑假给我带来了对于UC Berkeley CS课程的震撼，一个EECS的梦想，<del>以及7000$的学费账单</del>。于是在离开了伯克利后自己就尝试遵循UCB CS部门的选课
+2022年的暑假给我带来了对于UC Berkeley CS课程的震撼，一个EECS的梦想，<del>以及7000$的学费账单</del>。于是在离开了伯克利后自己就尝试遵循UCB CS部门的选课
 指南开始自学CS sequence的旅程
 
 本文会包括对选课指南的简介，对于每一节课的评价，以及在自学时遇到的infra structure的问题的(可能的)解决方案
 <!-- more -->
 
 ## UC Berkeley CS选课指南
-如果一个人想要从Berkeley得到CS B.A.学位的话，她需要满足Lower Division Requirements和Upper Division Degree Requirements。而且Lower Division的课程会被视为
-Upper Division的课程的前置条件。而我是在2022夏天在Berkeley summer program完成了部分Lower Division Requirements。所有要求列举如下：
+如果一个人想要从Berkeley得到CS B.A.学位的话，她需要满足Lower Division Requirements和Upper Division Degree Requirements。而且Lower Division的课程会被视为Upper Division的课程的前置条件。而我是在2022夏天在Berkeley summer program完成了部分Lower Division Requirements。所有要求列举如下：
 
 ### Lower Division Requirements
 - Math 51, MATH 52, and EECS 16A: 基础的calculus和linear algebra，唯一值得说的是EECS 16A/B，它允许妳造一个语音控制小车(听起来很酷)。
