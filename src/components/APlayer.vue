@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import APlayer from 'aplayer-ts'
-
 import 'aplayer-ts/src/css/base.css'
 import '~/styles/aplayer-dark.css'
 
@@ -15,7 +14,7 @@ const props = withDefaults(defineProps<{
 
 const playerRef = ref()
 const instance = APlayer()
-const url = 'https://api.liuly.moe/meting-api/?server=netease&type=playlist&id=373425292';
+const url = `https://api.liuly.moe/meting-api/?server=${props.songServer}&type=${props.songType}&id=${props.songId}&r=${Math.random()}`
 const audios = await fetch(url).then(response => response.json())
 
 function APlayerInit() {
@@ -39,7 +38,3 @@ onBeforeUnmount(() => {
 <template>
   <div ref="playerRef" />
 </template>
-
-
-
-<!-- MY APi AIzaSyBgIbP8wXyzjqP83ksLVGVGcnwcF59rD4s -->

@@ -11,6 +11,8 @@ This is a collorbative blog post about the 3-2 program from some students at Col
 
 As beneficiaries of 3-2 program, or "Combiend plan", We are now students at Columbia University. We will share my experience and thoughts about the program. In this post, we will share our experience and thoughts about the 3-2 program. We will discuss what the 3-2 program is, why we chose it, how to prepare for the application, and how competitive it is. We hope that this post will help you decide if the 3-2 program is right for you.
 
+<!-- more -->
+
 ## What is 3-2 program?
 
 The **3-2 program** (also known as a Dual Degree Program) allows students to complete three years of study at a liberal arts college and then transfer to an affiliated engineering school for an additional two years. After completing the five-year program, students typically receive two degrees: a Bachelor of Arts (B.A.) from the liberal arts college and a Bachelor of Science (B.S.) in engineering from the engineering school.

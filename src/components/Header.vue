@@ -9,7 +9,7 @@ const routePath = useRoute()
     class="sticky top-0 backdrop-filter backdrop-blur bg-hex-fff dark:bg-hex-18181c bg-opacity-70 z-3 flex items-center justify-between border-b-[0.8px] dark:border-white/9 p-2">
     <router-link to="/" class="flex items-center hover:text-hex-42b883">
       <img src="/profile.png" alt="liuly" class="rounded-full cursor-pointer" height="48" width="48">
-      <span class="<sm:hidden pl-2 text-lg">Charlotte Chen's blog</span>
+      <span class="<sm:hidden pl-2 text-lg">夏洛特的blog</span>
     </router-link>
     <div class="inline-flex items-center">
       <RouterLink v-for="option in navOptions" :key="option.to" class="block mx-3 hover:text-hex-42b883"

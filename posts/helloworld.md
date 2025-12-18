@@ -1,22 +1,18 @@
 ---
 title: Hello World
 date: 2024-03-28 13:50:20
-tags: [web, personal]
-category: web
+tags: [杂谈]
+category: 日志
 ---
 
-Welcome to my first blog post! I tried to create a blog based on vue3 and vite. I hope you like it. I will write some articles about computer architecture, Columbia course experience, personal thoughts, and some other things. Stay tuned!
+突然感觉有一个博客是一件很酷的事情，于是尝试建了一个。
 
-## Feature
-- dark mode
-- global search
-- RSS support
-- Music player
+感觉自己不是很会写东西的人，不过为了每年的域名订阅费用还是要写一点的。想要把自己会写的东西列在这里：
+- 上过的好玩的课
+- 申请的过程
+- 面基经历
+- <del>实践过程</del>
 
-## Tech Stack
-- Vue3
-- Vite2
+<!-- more -->
 
-This blog is largely based on [llyのblog](https://blog.liuly.moe/). Thanks to the author for providing the source code.
-
-```
+希望生活可以更有趣，这样就可以多写一点博客。

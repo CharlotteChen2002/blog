@@ -1,16 +1,21 @@
 const navOptions = [
   {
-    label: 'Main',
+    label: '主页',
     to: '/',
     match: '/$',
   },
   {
-    label: 'Links',
+    label: '友链',
     to: '/links',
     match: '/links$',
   },
   {
-    label: 'About',
+    label: '动画',
+    to: '/bangumi',
+    match: '/bangumi$',
+  },
+  {
+    label: '关于',
     to: '/about',
     match: '/about$',
   },

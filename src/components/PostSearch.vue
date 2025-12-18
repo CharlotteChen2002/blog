@@ -19,6 +19,12 @@ function handleSearch(value: any) {
 </script>
 
 <template>
-  <n-auto-complete v-model:value="searchPattern" placeholder="Search posts..." :options="searchOptions"
-    clear-after-select blur-after-select @select="handleSearch" />
+  <n-auto-complete
+    v-model:value="searchPattern"
+    placeholder="搜索标题..."
+    :options="searchOptions"
+    clear-after-select
+    blur-after-select
+    @select="handleSearch"
+  />
 </template>

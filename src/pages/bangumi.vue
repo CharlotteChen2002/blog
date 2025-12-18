@@ -7,7 +7,7 @@ const loadingElement = ref<HTMLElement>()
 const intersectionObserver = new IntersectionObserver(
   ([entry]) => {
     if (entry.isIntersecting)
-      updateAnimeList()
+      updateAnimeListWithIntersectionCheck()
   },
 )
 onMounted(() => {
@@ -25,15 +25,29 @@ function lineClamp(event: MouseEvent) {
     el.style.setProperty('-webkit-line-clamp', webkitLineClamp === lineClamp ? 'unset' : lineClamp)
   }
 }
+
+async function updateAnimeListWithIntersectionCheck() {
+  await updateAnimeList()
+  requestAnimationFrame(() => {
+    if (loadingElement.value && isInView(loadingElement.value))
+      updateAnimeListWithIntersectionCheck()
+  })
+}
+
+function isInView(el: HTMLElement) {
+  const box = el.getBoundingClientRect()
+  return box.top < window.innerHeight && box.bottom >= 0
+}
 </script>
 
 <template>
   <h1 class="text-3xl font-bold">
-    Anime List
+    动画列表
   </h1>
   <p class="mt-5">
-    The anime I have watched and rated on <a href="https://bangumi.tv/user/charlottechen" class="blue-link"
-      target="_blank" rel="noopener noreferrer">bangumi</a>.
+    我在 <a href="https://bangumi.tv/user/charlottechen" class="blue-link" target="_blank"
+      rel="noopener noreferrer">bangumi</a>
+    上对部分看过动画的评分与短评(Optional)。
   </p>
   <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 mt-5">
     <div v-for="anime in animeList" :key="anime.subject.id" class="flex items-center card p-3">

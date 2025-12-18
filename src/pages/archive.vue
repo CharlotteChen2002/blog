@@ -3,5 +3,5 @@ const { summary } = useSummary()
 </script>
 
 <template>
-  <ArchiveCard title="Archives" :summary="summary" />
+  <ArchiveCard title="归档" :summary="summary" />
 </template>

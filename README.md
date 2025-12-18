@@ -22,26 +22,11 @@
 
 <p align='center'>Q-Blog - Quicker and Cuter</p>
 
-Welcome to [my personal blog site](https://charlottechen.blog/) ([subscribe](https://charlottechen.blog/feed.xml)).
+Welcome to [my personal blog site](https://blog.liuly.moe) ([subscribe](https://blog.liuly.moe/feed.xml)).
 
 - Vite5, Vue3, TypeScript, Naive UI
 - Responsive Web Design, Dark Mode, PWA
 - [WIP] **(Have a look!) Rollup [partial evaluate plugin](./partial-evaluate/)**
-
-## Edit site
-
-- Add vue components in `src/components`
-<!-- add second level list -->
-    - Music player in `src/components/APlayer.vue`
-    - Change sidebar in `src/components/Sidebar.vue`
-    - Change post content table in `src/components/Toc.vue`
-    - Change "一言" in `src/components/Yiyan.vue`
-
-- Edit introduction in `src/pages/about.md`
-- Edit blog content in `src/posts`
-
-
-
 
 ## Usage
 
@@ -55,7 +40,7 @@ pnpm i
 Development：
 
 ```bash
-pnpm dev
+pnpm dev # run server at `localhost:3000`
 ```
 
 Build：
@@ -69,4 +54,3 @@ pnpm preview # preview the production build
 
 - [tov-template](https://github.com/dishait/tov-template)
 - [Vite PWA](https://github.com/vite-pwa/vite-plugin-pwa)
-- [llyのblog](https://blog.liuly.moe/)
