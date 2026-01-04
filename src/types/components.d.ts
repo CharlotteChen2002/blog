@@ -19,7 +19,6 @@ declare module 'vue' {
     'ICarbon:menu': typeof import('~icons/carbon/menu')['default']
     'ICarbon:rss': typeof import('~icons/carbon/rss')['default']
     'ICarbon:sun': typeof import('~icons/carbon/sun')['default']
-    NAutoComplete: typeof import('naive-ui')['NAutoComplete']
     NConfigProvider: typeof import('naive-ui')['NConfigProvider']
     NDivider: typeof import('naive-ui')['NDivider']
     NRate: typeof import('naive-ui')['NRate']

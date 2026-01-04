@@ -7,7 +7,10 @@ const { isDark, toggleDark } = useDarks()
 <template>
   <div class="mx-1 mt-0 mb-6 text-center lg:card p-4">
     <div class="flex justify-center mb-2">
-      <img src="/profile.png" alt="liuly" class="rounded-full cursor-pointer" height="100" width="100">
+      <picture>
+        <source srcset="/profile.webp" type="image/webp">
+        <img src="/profile.png" alt="liuly" class="rounded-full cursor-pointer" height="100" width="100" loading="lazy">
+      </picture>
     </div>
     <p class="text-xl">
       Charlotte | 夏洛特

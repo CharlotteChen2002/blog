@@ -4,7 +4,10 @@ title: 关于
 
 <div class="lg:card p-6">
 
-<img src="/profile.png" alt="avatar" height="192" width="192" class="rounded-full">
+<picture>
+  <source srcset="/profile.webp" type="image/webp">
+  <img src="/profile.png" alt="avatar" height="192" width="192" class="rounded-full" loading="lazy">
+</picture>
 
 ## 关于我
 

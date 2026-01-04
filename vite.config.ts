@@ -105,11 +105,11 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       workbox: {
-        globPatterns: ['**/*.{js,css,ico,svg}'],
+        globPatterns: ['**/*.{js,css,ico,svg,jpg,jpeg,png,webp}'],
         // https://github.com/vite-pwa/vite-plugin-pwa/issues/120
         navigateFallback: null,
       },
-      includeAssets: ['favicon.ico', 'apple-touch-icon.png'],
+      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'avatars/*.{jpg,jpeg,png}'],
       manifest: {
         name: '夏洛特的blog',
         short_name: '夏洛特的blog',
@@ -117,6 +117,16 @@ export default defineConfig({
         lang: 'zh-CN',
         theme_color: '#ffffff',
         icons: [
+          {
+            src: 'pwa-192x192.webp',
+            sizes: '192x192',
+            type: 'image/webp',
+          },
+          {
+            src: 'pwa-512x512.webp',
+            sizes: '512x512',
+            type: 'image/webp',
+          },
           {
             src: 'pwa-192x192.png',
             sizes: '192x192',
@@ -143,9 +153,6 @@ export default defineConfig({
     // 打包体积分析
     visualizer(),
   ],
-  css: {
-    transformer: 'lightningcss',
-  },
   build: {
     minify: 'terser',
     rollupOptions: {

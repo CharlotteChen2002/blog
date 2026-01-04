@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sort:*)",
+      "Bash(xargs:*)",
+      "Bash(find:*)",
+      "Bash(node scripts/extract-avatars.js:*)",
+      "Bash(node scripts/convert-to-webp.js:*)",
+      "Bash(pnpm add:*)",
+      "Bash(pnpm run build:*)",
+      "Bash(node --version:*)",
+      "Bash(brew update:*)",
+      "Bash(brew info:*)",
+      "Bash(npm --version:*)",
+      "Bash(pnpm --version:*)"
+    ]
+  }
+}
