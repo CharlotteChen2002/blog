@@ -19,7 +19,7 @@ title: 关于
 
 ## 联系方式
 
-- 主页：[CharlotteChen2002](https://charlottechen2002.github.io/)
+- 主页：[CharlotteChen2002](https://charlottechen2002.com)
 - GitHub：[CharlotteChen2002](https://github.com/CharlotteChen2002)
 - Telegram 频道：[CharlotteChen2002](https://t.me/CharlotteChen2002)
 - 邮箱：chencharl AT grinnell.edu
